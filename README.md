@@ -1,25 +1,33 @@
-# vue-ts
+# vue-multi-page
 
 ## Project setup
 
-```
+```bash
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
 
-```
-yarn run serve
+```bash
+# mobile
+yarn run serve-mobile
+
+# pc
+yarn run serve-pc
 ```
 
 ### Compiles and minifies for production
 
-```
-yarn run build
+```bash
+# mobile
+yarn run build-mobile
+
+# pc
+yarn run build-pc
 ```
 
 ### Lints and fixes files
 
-```
+```bash
 yarn run lint
 ```

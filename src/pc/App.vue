@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <header>
+      <h1>PC</h1>
+    </header>
+
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>

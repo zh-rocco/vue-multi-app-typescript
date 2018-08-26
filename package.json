@@ -1,12 +1,12 @@
 {
-  "name": "vue-ts",
+  "name": "vue-multi-page",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "dev-pc": "cross-env ENTRY_TYPE=pc vue-cli-service serve",
-    "dev-mobile": "cross-env ENTRY_TYPE=mobile vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve-mobile": "vue-cli-service serve --mode mobile-dev",
+    "build-mobile": "vue-cli-service build --mode mobile-prod",
+    "serve-pc": "vue-cli-service serve --mode pc-dev",
+    "build-pc": "vue-cli-service build --mode pc-prod",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -20,7 +20,6 @@
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-typescript": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
-    "cross-env": "^5.2.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "typescript": "^3.0.0",
