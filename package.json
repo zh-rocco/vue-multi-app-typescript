@@ -1,6 +1,7 @@
 {
   "name": "vue-multi-app",
   "version": "0.1.0",
+  "description": "Vue multi application template, optimized from Vue CLI 3 typescript template.",
   "scripts": {
     "serve-mobile": "vue-cli-service serve --mode mobile-dev",
     "build-mobile": "vue-cli-service build --mode mobile-prod",
@@ -9,6 +10,28 @@
     "build": "npm run build-pc && npm run build-mobile",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zh-rocco/vue-multi-app.git"
+  },
+  "keywords": [
+    "vue-cli-template",
+    "vue-cli-3",
+    "template",
+    "vue"
+  ],
+  "author": {
+    "name": "Rocco Mormont",
+    "email": "rocco.mormont@gmail.com",
+    "url": "https://zh-rocco.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/zh-rocco/vue-multi-app/issues"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
