@@ -1,12 +1,12 @@
 {
-  "name": "vue-multi-page",
+  "name": "vue-multi-app",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve-mobile": "vue-cli-service serve --mode mobile-dev",
     "build-mobile": "vue-cli-service build --mode mobile-prod",
     "serve-pc": "vue-cli-service serve --mode pc-dev",
     "build-pc": "vue-cli-service build --mode pc-prod",
+    "build": "npm run build-pc && npm run build-mobile",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

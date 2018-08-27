@@ -1,4 +1,6 @@
-# vue-multi-page
+# vue-multi-app
+
+> Vue multi application template, optimized from Vue CLI 3 typescript template.
 
 ## Project setup
 
@@ -31,3 +33,8 @@ yarn run build-pc
 ```bash
 yarn run lint
 ```
+
+## VSCode Plugins
+
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
