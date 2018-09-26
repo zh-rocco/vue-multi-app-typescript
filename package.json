@@ -1,5 +1,5 @@
 {
-  "name": "vue-multi-app",
+  "name": "vue-multi-app-typescript",
   "version": "0.1.0",
   "description": "Vue multi application template, optimized from Vue CLI 3 typescript template.",
   "scripts": {
