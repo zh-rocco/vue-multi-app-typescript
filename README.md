@@ -1,4 +1,4 @@
-# vue-multi-app
+# vue-multi-app-typescript
 
 > Vue multi application template, optimized from Vue CLI 3 typescript template.
 
