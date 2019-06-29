@@ -1,5 +1,7 @@
 # vue-multi-app-typescript
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zh-rocco/vue-multi-app-typescript.svg)](https://greenkeeper.io/)
+
 > Vue multi application template, optimized from Vue CLI 3 typescript template.
 
 ## Project setup
